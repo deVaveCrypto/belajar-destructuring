@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import DArray from "./pages/DArray";
+import DObject from "./pages/DObject";
 
 function App() {
+  // Swap items using destructuring
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h3>Destrukturing Array</h3>
+      <DArray />
+      <h3>Destrukturing Object</h3>
+      <DObject />
     </div>
   );
 }
